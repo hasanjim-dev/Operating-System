@@ -1,0 +1,111 @@
+# 🤖 Claude Code Setup Guide
+
+A quick reference for installing and using Claude Code from the terminal.
+
+---
+
+## 📋 Requirements
+
+* Node.js
+* npm
+* Anthropic account
+
+Check Node.js:
+
+```bash
+node --version
+```
+
+Check npm:
+
+```bash
+npm --version
+```
+
+---
+
+## 📦 Installation
+
+Install Claude Code globally:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+Check installation:
+
+```bash
+claude --version
+```
+
+---
+
+## 🚀 Start Claude Code
+
+Open your project directory:
+
+```bash
+cd your-project
+```
+
+Then run:
+
+```bash
+claude
+```
+
+Follow the authentication instructions shown by Claude Code.
+
+---
+
+## 🔑 Authentication
+
+Claude Code may provide interactive authentication options.
+
+If using an API key, configure the required environment variable according to the current Claude Code documentation.
+
+Never commit API keys to GitHub.
+
+---
+
+## 💻 Using Claude Code in a Project
+
+Navigate to the project:
+
+```bash
+cd your-project
+```
+
+Start Claude Code:
+
+```bash
+claude
+```
+
+You can then use Claude as an AI coding assistant while working inside the project.
+
+---
+
+## 🔄 Updating Claude Code
+
+```bash
+npm update -g @anthropic-ai/claude-code
+```
+
+---
+
+## 🗑️ Uninstall
+
+```bash
+npm uninstall -g @anthropic-ai/claude-code
+```
+
+---
+
+## 📌 Notes
+
+Claude Code and its authentication requirements may change over time.
+
+Check the official Anthropic documentation for the latest installation, authentication, and usage instructions.
+
+Never share or commit your API keys, access tokens, or other credentials.
